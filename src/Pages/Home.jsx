@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import NavBar from '../Components/NavBar';
-import Background from '../images/background.jpg'
+import Background from '../images/background.png'
 import Background2 from '../images/movie.png';
 import Footer from '../Components/Footer';
 import AnimatedPages from '../Components/AnimatedPages';
