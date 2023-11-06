@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import {
   faFacebook, faTwitter, faInstagram, faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
-import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const FooterWrap = styled.div`
