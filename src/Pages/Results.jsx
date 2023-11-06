@@ -15,16 +15,17 @@ const Header = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  color: #ffffff;
+  color: #FCFAF0;
   div {
     width: 100%;
     text-align: center;
   }
   h1 {
-    font-size: 80px;
+    font-size: 50px;
+    margin-top: 200px;
   }
   h3 {
-    font-size: 30px;
+    font-size: 16px;
     font-weight: normal;
     color: #7CA8AE;
     a {
@@ -47,11 +48,15 @@ const Card = styled.div`
     width: auto;
     margin: 5px;
     padding: 10px;
+    line-height: 1.9;
     h1 {
-      font-size: 17px;
+      font-size: 11px;
+      &: hover {
+        color: #7CA8AE;
+      }
     }
     h2 {
-      font-size: 12px;
+      font-size: 9px;
       color: #7CA8AE;
     }
     img {

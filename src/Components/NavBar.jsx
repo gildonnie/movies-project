@@ -8,9 +8,10 @@ const DivContainer = styled.div`
   justify-content: space-evenly;
   align-items: center;
   background: transparent;
+  padding-top: 10px;
   form {
     input {
-      height: 30px;
+      height: 32px;
       border-top-left-radius: 10px; 
       border-bottom-left-radius: 10px;
       width: 300px;
@@ -36,6 +37,10 @@ const DivContainer = styled.div`
       a {
         text-decoration: none;
         color:#7CA8AE;
+        font-size: 14px;
+        &: hover {
+          color: #FCFAF0;
+        }
       } 
     }
   }
@@ -69,11 +74,11 @@ function NavBar() {
         <li><Link to='/'>Home</Link></li> 
         <li><Link to='/movies'>Movies</Link></li>
         <li><Link to='/shows'>Shows</Link></li>
+        <li><Link to='/comingSoon'>Login</Link></li>
       </ul>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder={error} value={searchTitle} onChange={(e) => setSearchTitle(e.target.value)} />
         <button type="submit">Search</button>
-        
       </form>
     </DivContainer>
   )

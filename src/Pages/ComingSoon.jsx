@@ -18,10 +18,10 @@ const Header = styled.div`
   }
   h1 {
     margin-top: 300px;
-    font-size: 80px;
+    font-size: 50px;
   }
   h3 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: normal;
     a {
       text-decoration: none;

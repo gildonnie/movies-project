@@ -11,7 +11,7 @@ const Header = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  color: #ffffff;
+  color: #FCFAF0;
   div {
     text-align: center;
     margin: 0 auto;
@@ -31,14 +31,15 @@ const Card = styled.div`
     margin: 5px;
     padding: 10px;
     color: #FCFAF0;
+    line-height: 1.9;
     h1 {
-      font-size: 40px;
+      font-size: 30px;
     }
     h2 {
-      font-size: 25px;
+      font-size:18px;
     }
     p {
-      font-size: 14px;
+      font-size: 11px;
     }
     img {
       height: 200px;

@@ -15,10 +15,15 @@ const FooterWrap = styled.div`
   margin-top: 3rem;
   background-color: #38120C;
   color: #7CA8AE;
-  line-height: 1.9;
+  font-size: 11px;
+  line-height: 2;
+  h1 {
+    font-size: 23px;
+  }
   .fonts {
     svg {
       margin-right: 1.5rem;
+      font-size: 20px;
      }
   }
   ul {

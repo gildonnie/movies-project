@@ -19,15 +19,16 @@ const Header = styled.div`
   background-size: cover;
   height: 100vh;
   color: #7CA8AE;
+  line-height: 2;
   h1 {
-    font-size: 80px;
-    color: #ffffff;
+    font-size: 50px;
+    color: #FCFAF0;
   }
   h3 {
-    font-size: 30px;
+    font-size: 16px;
     font-weight: normal;
     a {
-      color: #ffffff;
+      color: #FCFAF0;
       font-weight: bolder;
     } 
   }
@@ -51,7 +52,8 @@ const Body = styled.div`
   margin: 0 auto;
   width: 100%;
   padding: 20px;
-  line-height: 1.9em;
+  line-height: 3;
+  font-size: 11px;
   .imgDiv {
     img {
       height: 600px;
@@ -59,6 +61,7 @@ const Body = styled.div`
   }
   h1, h2 {
     color: #B52212;
+    font-size: 17px;
   }
 `;
 
@@ -66,9 +69,11 @@ const Body2 = styled.div`
   height: 50vh;
   padding: 20px;
   background: #7CA8AE;
-  line-height: 1.9em;
+  line-height: 3;
+  font-size: 11px;
   h1  {
     color: #B52212;
+    font-size: 17px;
   }
   div {
     max-width: 900px;
