@@ -57,7 +57,7 @@ function Info() {
 
   useEffect(() => {
     async function Movies() {
-      const response = await fetch(`http://www.omdbapi.com/?apikey=${apiKey}&i=${id}`);
+      const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&i=${id}`);
       const movieInfo = await response.json();
       setInfoData(movieInfo);
     }

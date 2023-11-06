@@ -88,7 +88,7 @@ function Shows() {
 
   useEffect(() => {
     async function Shows() {
-      const response = await fetch(`http://www.omdbapi.com/?apikey=${apiKey}&s=series&page=${pageNumber}`);
+      const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&s=series&page=${pageNumber}`);
       const shows = await response.json();
       setTotalResults(shows.totalResults)
       setShowData(shows.Search);

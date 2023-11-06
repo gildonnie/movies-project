@@ -89,7 +89,7 @@ function Movies() {
 
   useEffect(() => {
     async function Movies() {
-      const response = await fetch(`http://www.omdbapi.com/?apikey=${apiKey}&s=movie&page=${pageNumber}`);
+      const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&s=movie&page=${pageNumber}`);
       const movies = await response.json();
       setTotalResults(movies.totalResults)
       setMovieData(movies.Search);
